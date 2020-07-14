@@ -1,0 +1,38 @@
+.options {
+  position: absolute;
+  right: 0;
+  margin-top: -5px;
+  margin-right: 5px;
+  z-index: 1;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: -3px 0px 59px -20px rgba(71, 87, 162, 1);
+  padding: 5px;
+}
+
+.options-text-default{
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 4px;
+    margin-left: 5px;
+    margin-right: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #B8BBC3;
+    
+}
+
+.options-text-active{
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 4px;
+    margin-left: 5px;
+    margin-right: 10px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #425195;
+}
+
+.icon{
+    margin-right: 2px;
+}
