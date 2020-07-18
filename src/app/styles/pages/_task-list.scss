@@ -1,0 +1,126 @@
+.cardj {
+  margin-bottom: 10px;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 15px 20px 10px 15px;
+    border: none;
+    border-radius: 8px 8px 0px 0px !important;
+
+    &__title {
+      font-size: 16px;
+      color: #2dc09d;
+      font-weight: bold;
+      margin: 0;
+
+      &--finish {
+        color: #dc3646;
+      }
+    }
+  }
+
+  &__body {
+    background-color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    border-radius: 0px 0px 8px 8px;
+
+    &__header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      &__user {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &__image {
+          width: 30px;
+          height: 30px;
+        }
+
+        &__name {
+          margin: 0;
+          font-size: 14px;
+          font-weight: 500;
+          color: #010c3b;
+          line-height: 20px;
+        }
+      }
+
+      &__time {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        color: #333d69;
+        font-size: 12px;
+        line-height: 20px;
+        margin-right: 10px;
+
+        &__icon {
+          margin-right: 5px;
+          font-size: 16px;
+        }
+      }
+    }
+
+    &__body {
+      border-left: 2px solid #2dc09d;
+      padding-left: 10px;
+      margin-top: 10px;
+
+      &__cnt-header {
+        display: flex;
+        justify-content: space-between;
+
+        &__title {
+          margin: 0;
+          font-weight: bold;
+          color: #333d69;
+        }
+      }
+    }
+
+    &__description {
+      font-weight: 500;
+      color: #333d69;
+      line-height: 18px;
+      font-size: 14px;
+      opacity: 0.7;
+      margin-top: 5px;
+    }
+  }
+
+  &__divider {
+    border: 1px solid #f0f3ff;
+    width: 95%;
+    margin: auto;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+}
+
+.task-list {
+  width: 100%;
+  height: 100%;
+  background-color: #f3f5fa;
+  padding: 20px 0px;
+}
+
+//Tareas
+.title {
+  color: #010c3b;
+  font-size: 19px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.detail {
+  font-size: 13px;
+  color: #425195;
+}

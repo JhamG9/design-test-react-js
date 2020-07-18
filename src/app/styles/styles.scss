@@ -1,0 +1,19 @@
+//Initial settings
+@import './base/settings';
+@import './base/buttons';
+
+//Components
+@import './components/button-plus';
+@import './components/header';
+@import './components/options';
+
+//Pages
+@import './pages/task-list';
+
+
+//App.js
+.background_color{
+    overflow-x: hidden;
+    background-color: #f3f5fa !important;
+}
+

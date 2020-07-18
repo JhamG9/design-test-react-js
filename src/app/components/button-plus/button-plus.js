@@ -1,10 +1,9 @@
 import React from 'react';
-import './button-plus.css';
 
 export default function ButtonPlus() {
     return (
         <div className="btn-plus">
-            <p className="icon-plus">
+            <p className="btn-plus__icon">
                 <i className='fas fa-plus '></i>
             </p> 
         </div>
