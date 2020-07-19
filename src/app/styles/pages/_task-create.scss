@@ -8,19 +8,19 @@
             margin: 0;
             font-weight: 300;
             font-size: 18px;
-            color: gray;
+            color: $gray;
         }
 
         input {
             width: 100%;
             padding: 10px 10px !important;
             border-radius: 5px;
-            border: 1px solid #bdbdbd;
+            border: 1px solid $gray-light;
             outline: none !important;
         }
 
         input:focus {
-            border: 2px solid #bdbdbd;
+            border: 2px solid $gray-light;
         }
     }
 
@@ -33,7 +33,7 @@
             margin: 0;
             font-weight: 300;
             font-size: 18px;
-            color: gray;
+            color: $gray;
         }
     }
 }

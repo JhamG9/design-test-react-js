@@ -9,8 +9,8 @@
     margin-right: 5px;
     z-index: 1;
     border-radius: 10px;
-    background-color: white;
-    box-shadow: -3px 0px 59px -20px rgba(71, 87, 162, 1);
+    background-color: $white;
+    box-shadow: -3px 0px 59px -20px $blue-shadow;
     padding: 5px;
 
     &__text {
@@ -25,7 +25,7 @@
         cursor: pointer;
 
         &--active {
-            color: #425195;
+            color: $primary;
         }
 
         &__icon {

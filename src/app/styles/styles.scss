@@ -18,7 +18,7 @@
 //App.js
 .background_color{
     overflow-x: hidden;
-    background-color: #f3f5fa !important;
+    background-color: $white-green-light !important;
 }
 
 .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] {
@@ -42,5 +42,5 @@ body {
 
 .err-validation{
   font-size: 12px !important;
-  color: red !important;
+  color: $red !important;
 }

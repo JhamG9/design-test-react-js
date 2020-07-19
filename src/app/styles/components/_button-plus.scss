@@ -1,28 +1,28 @@
-.btn-plus{
-    position: fixed;  
+.btn-plus {
+    position: fixed;
     bottom: 0;
-    z-index: 100; 
+    z-index: 100;
     width: 64px;
     height: 64px;
-    background-color: #425195;
+    background-color: $primary;
     border-radius: 50%;
     right: 0;
     display: flex;
     align-items: center;
     margin: 25px;
 
-    &__icon{
+    &__icon {
         margin: auto;
-        color: white;
+        color: $white;
         font-size: 30px;
     }
 
-    :active{
+    :active {
         outline: none;
     }
 }
 
-.btn-right{
+.btn-right {
     display: flex;
     position: relative;
     float: right;

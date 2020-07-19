@@ -1,6 +1,6 @@
 .cnt {
   padding: 30px 60px;
-  background-color: white;
+  background-color: $white;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -11,14 +11,14 @@
 
   &__header{
     &__title{
-      color: #010c3b;
+      color: $secondary;
       font-size: 25px;
       font-weight: bold;
       margin: 0;
     }
 
     &__sub-title{
-      color: #425195;
+      color: $primary;
       font-weight: 300;
       opacity: 0.8;
       font-size: 14px;
