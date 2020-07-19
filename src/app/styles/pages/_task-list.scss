@@ -12,11 +12,13 @@
     &__title {
       font-size: 16px;
       color: #2dc09d;
+      cursor: pointer;
       font-weight: bold;
       margin: 0;
 
       &--finish {
         color: #dc3646;
+        cursor: default !important;
       }
     }
   }
@@ -37,10 +39,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        cursor: pointer;
 
         &__image {
           width: 30px;
           height: 30px;
+          border-radius: 50%;
         }
 
         &__name {
@@ -49,6 +53,7 @@
           font-weight: 500;
           color: #010c3b;
           line-height: 20px;
+          margin-left: 5px;
         }
       }
 
@@ -82,6 +87,7 @@
           margin: 0;
           font-weight: bold;
           color: #333d69;
+          cursor: pointer;
         }
       }
     }
@@ -92,7 +98,10 @@
       line-height: 18px;
       font-size: 14px;
       opacity: 0.7;
+      margin: 0;
       margin-top: 5px;
+      cursor: pointer;
+      padding-bottom: 10px;
     }
   }
 

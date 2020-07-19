@@ -6,9 +6,13 @@
 @import './components/button-plus';
 @import './components/header';
 @import './components/options';
+@import './components/modal';
+@import './components/user';
 
 //Pages
 @import './pages/task-list';
+@import './pages/task-create';
+@import './pages/task-detail';
 
 
 //App.js
@@ -17,3 +21,26 @@
     background-color: #f3f5fa !important;
 }
 
+.MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] {
+  padding: 5px 10px !important;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+
+.err-validation{
+  font-size: 12px !important;
+  color: red !important;
+}

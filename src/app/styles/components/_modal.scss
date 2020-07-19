@@ -1,0 +1,17 @@
+.show-modal {
+    display: block;
+    background-color: #0000007d;
+
+    &__close-modal {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 25px;
+    }
+}
+
+.swal2-title {
+    font-weight: 400;
+    font-size: 30px;
+
+}

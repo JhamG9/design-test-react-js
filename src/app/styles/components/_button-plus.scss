@@ -16,4 +16,15 @@
         color: white;
         font-size: 30px;
     }
+
+    :active{
+        outline: none;
+    }
+}
+
+.btn-right{
+    display: flex;
+    position: relative;
+    float: right;
+    margin-top: 20px;
 }
